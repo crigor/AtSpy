@@ -8,9 +8,9 @@ module.exports = function (config) {
       // browsers: ['PhantomJS','Chrome', 'Firefox'],
       phantomjsLauncher: {
         cmd: {
-          linux: __dirname + '/node_modules/phantomjs/lib/phantom/bin/phantomjs',
-          darwin: __dirname + '/node_modules/phantomjs/lib/phantom/bin/phantomjs',
-          win32: __dirname + '/node_modules/phantomjs/lib/phantom/bin/phantomjs'
+          linux: __dirname + '/node_modules/phantomjs-prebuilt/lib/phantom/bin/phantomjs',
+          darwin: __dirname + '/node_modules/phantomjs-prebuilt/lib/phantom/bin/phantomjs',
+          win32: __dirname + '/node_modules/phantomjs-prebuilt/lib/phantom/bin/phantomjs'
         }
       },
       reporters: ['progress', 'coverage'],
